@@ -11,8 +11,8 @@ public class ArrayListDemo {
 		arraylist.add(2);
 		arraylist.add(3);
 		
+		arraylist.stream().forEach(x->System.out.println(x));
 		
-		System.out.println(arraylist);
 		
 		
 	}
